@@ -1,6 +1,7 @@
 name: routing_client_dart
 description: Dart Package for Routing Client Api ( support OSRM/Valhalla project )
 version: 1.0.7
+publish_to: 'none'
 topics:
   - osm
   - routing
