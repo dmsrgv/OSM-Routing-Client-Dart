@@ -123,10 +123,6 @@ class ValhallaRequest extends BaseRequest<Map<String, dynamic>> {
     this.voiceInstructions,
     super.alternatives,
   }) : assert(
-         waypoints.length == 2,
-         "we dont support more that 2 points for routing service for now",
-       ),
-       assert(
          languages != Languages.ar,
          "arabic language not supported for now",
        ),
